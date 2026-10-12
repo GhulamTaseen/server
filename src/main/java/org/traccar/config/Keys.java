@@ -1708,6 +1708,10 @@ public final class Keys {
             "filter.zero",
             List.of(KeyType.CONFIG, KeyType.DEVICE));
 
+    public static final ConfigKey<Boolean> FILTER_UNCHANGED = new BooleanConfigKey(
+            "filter.unchanged",
+            List.of(KeyType.CONFIG, KeyType.DEVICE));
+
     /**
      * Filter duplicate records (duplicates are detected by time value).
      */
